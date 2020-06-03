@@ -9,6 +9,8 @@ metadata:
   annotations:
     fluxcd.io/tag.init: regex:^3.10.*
     fluxcd.io/tag.podinfod: semver:~3.1
+    fluxcd.io/locked: 'true'
+    fluxcd.io/locked_user: Soheil Eizadi <seizadi@infoblox.com>
 spec:
   strategy:
     rollingUpdate:
