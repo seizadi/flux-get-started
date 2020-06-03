@@ -1,0 +1,1 @@
+{"jobID":"7c23e120-0abd-249c-b01a-a5ca2623cdb7","spec":{"type":"policy","cause":{"Message":"","User":"Soheil Eizadi \u003cseizadi@infoblox.com\u003e"},"spec":{"demo:deployment/podinfo":{"add":{},"remove":{"automated":"true"}}}},"result":null}
