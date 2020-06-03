@@ -1,0 +1,1 @@
+{"jobID":"192817c2-4864-1c77-b24f-a58aa2cd4255","spec":{"type":"policy","cause":{"Message":"","User":"Soheil Eizadi \u003cseizadi@infoblox.com\u003e"},"spec":{"demo:deployment/podinfo":{"add":{"tag.podinfo":"semver:~3.3"},"remove":{}}}},"result":null}
