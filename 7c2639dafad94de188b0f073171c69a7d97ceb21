@@ -1,0 +1,1 @@
+{"jobID":"de234f55-5a97-bf16-beab-c398bd6497c7","spec":{"type":"policy","cause":{"Message":"","User":"Soheil Eizadi \u003cseizadi@infoblox.com\u003e"},"spec":{"demo:deployment/podinfo":{"add":{"tag.podinfod":"glob:master-*"},"remove":{}}}},"result":null}
