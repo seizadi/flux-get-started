@@ -8,7 +8,7 @@ metadata:
     app: podinfo
   annotations:
     fluxcd.io/tag.init: regex:^3.10.*
-    fluxcd.io/tag.podinfod: glob:master-*
+    fluxcd.io/tag.podinfod: semver:~3.3
     fluxcd.io/tag.podinfo: semver:~3.3
 spec:
   strategy:
