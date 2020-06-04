@@ -7,9 +7,9 @@ metadata:
   labels:
     app: podinfo
   annotations:
+    fluxcd.io/automated: "true"
     fluxcd.io/tag.init: regex:^3.10.*
-    fluxcd.io/tag.podinfod: semver:~3.3
-    fluxcd.io/tag.podinfo: semver:~3.3
+    fluxcd.io/tag.podinfod: semver:~3.1
 spec:
   strategy:
     rollingUpdate:
@@ -34,7 +34,7 @@ spec:
         - "1"
       containers:
       - name: podinfod
-        image: stefanprodan/podinfo:3.1.5
+        image: stefanprodan/podinfo:3.1.0
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
@@ -58,8 +58,6 @@ spec:
         env:
         - name: PODINFO_UI_COLOR
           value: "#34577c"
-        - name: PODINFO_UI_MESSAGE
-          value: "Welcome Soheil to Flux"
         livenessProbe:
           httpGet:
             path: /healthz
